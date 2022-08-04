@@ -24,7 +24,6 @@ const Navbar = () => {
         </div>
 
         <div className=" flex  mt-10  " >
-          {/* className="flex   sm:mx-1 ml-8 p-12 cursor-pointer" */}
           <div className="flex  justify-between " >                
             { navBarLink.map((item) => (
               <>

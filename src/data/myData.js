@@ -2,7 +2,7 @@ export const navBarLink = [
     {
       title: 'Home',
       
-      name: 'home',
+      name: '',
          
     },
   
