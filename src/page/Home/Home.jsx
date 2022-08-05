@@ -10,10 +10,10 @@ const Home = () => {
     <div className=" border-[#14fe17] border-solid border-2 mx-4 text-xl p-4 mt-5">
       <p className=" inline">
         <p className="leading-relaxed">Hi there! I'm Tran Minh Khang.</p><br/>
-        I love writing code, especially javascript and I love working with ReactJS library and using Tailwind CSS. In the last 3 years, 
+        I love writing code, especially javascript and I love working with ReactJS library and using Tailwind CSS. For the last three years, 
         I've been practicing my skills in programming languages. And now, I want to use what I have learned in practice and add value to your company. 
         I'm the guy to take your ideas to the next level, and teleport them into reality.
-        With that, I hope to apply to the front end developer.
+        With that, I hope to apply to the front-end developer.
       </p>
         <br />
         <br />
@@ -40,7 +40,7 @@ const Home = () => {
               <p className="text-center hover:underline">React dashboard</p>
             </a>
             <p className="text-left pl-3">
-              A beautiful Dashboard website, using Tailwind in combination with the Syncfusion library.
+              A beautiful React Dashboard, using Tailwind in combination with the Syncfusion library.
             </p>
           </div>
           

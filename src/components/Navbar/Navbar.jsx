@@ -13,14 +13,13 @@ const Navbar = () => {
     <div className="w-full h-32">    
       <div className="flex justify-around  ">
         <div className="uppercase">
-          <div className=" text-center text-2xl bold   m-auto  relative top-6">
+          <div className=" text-center text-2xl bold m-auto relative top-10 font-bold">
             <Link to="/">
               <span>
-              TRAN MINH KHANG              
+                TRAN MINH KHANG              
               </span>          
             </Link>
-          </div>
-          
+          </div>          
         </div>
 
         <div className=" flex  mt-10  " >
