@@ -21,13 +21,12 @@ import "./Data.css"
 const Data = () => {
   //  about khang Skill infomation : programming language and so on...
   return (
-    <div className=" border-[#14fe17] border-solid border-2 mx-4">
-      <div className="m-4">
+    <div className=" border-[#14fe17] border-solid border-2 mx-4 mt-8 md:mt-0">
+      <div className="m-4 ">
         <span className="text-4xl block">My Skill</span>
-        <p className="text-3xl text-center pb-4"> Using </p> 
-    
+        <p className="text-3xl text-center pb-4"> Using </p>
 
-          <div className="grid grid-cols-5 gap-4">
+          <div className="grid rid-cols-2 gap-2 md:grid-cols-5 md:gap-4">
             <div className="border-[#14fe17] border-solid border-2 ">
               <AiFillHtml5 size={110} className=" py-3 m-auto"/>
               <p className="text-center text-xl ">HTML5</p>
@@ -79,10 +78,10 @@ const Data = () => {
               <p className="text-center text-xl ">React Router</p>
             </div>
           </div>
-
+            {/* learning */}
           <p className="text-center text-3xl my-4"> Learning</p>
 
-          <div className="flex justify-around ">
+          <div className="flex sm:flex-col md:flex-row md:justify-around flex-wrap content-center  ">
             <div className="border-[#14fe17] border-solid border-2 w-80 ">
                 <SiNodedotjs size={110} className=" py-3 m-auto img"/>
                 <p className="text-center text-xl ">Nodejs</p>

@@ -9,11 +9,8 @@ const Home = () => {
   return (
     <div className=" border-[#14fe17] border-solid border-2 mx-4 text-xl p-4 mt-5">
       <p className=" inline">
-        <p className="leading-relaxed">Hi there! I'm Tran Minh Khang.</p><br/>
-        I love writing code, especially javascript and I love working with ReactJS library and using Tailwind CSS. For the last three years, 
-        I've been practicing my skills in programming languages. And now, I want to use what I have learned in practice and add value to your company. 
-        I'm the guy to take your ideas to the next level, and teleport them into reality.
-        With that, I hope to apply to the front-end developer.
+        <p className="leading-relaxed ">Hi there! I'm Tran Minh Khang.</p><br/>
+        I enjoy developing programming, specifically javascript, and I enjoy utilizing Tailwind CSS and the ReactJS library. I have been honing my programming language skills for the past three years. I now want to put everything I have learnt into practice and improve your business. I'm the one that can transport your thoughts into reality and advance them. I'm hoping to use that to submit a front-end developer application.
       </p>
         <br />
         <br />
@@ -23,8 +20,8 @@ const Home = () => {
         <div className="my-5" >
           <p className=" uppercase text-center ">highlight project</p>
         </div>
-        <div className="grid grid-cols-2 gap-4">
-          <div className="border-[#14fe17] border-solid border-2 mx-4 ">
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="border-[#14fe17] md:border-solid md:border-2 mx-4 ">
             <a href="https://nxg-car-store.netlify.app/" >
               <img src={Ecommerce} className="img h-52 m-auto mt-3 "/>
               <p className="text-center hover:underline">Ecommerce store</p>
@@ -34,7 +31,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="border-[#14fe17] border-solid border-2">
+          <div className="border-[#14fe17] md:border-solid md:border-2">
             <a href="https://cv-dashboar.netlify.app/" >
               <img src={Dashboard} className="img h-52  m-auto pb-8 mt-3"/>
               <p className="text-center hover:underline">React dashboard</p>

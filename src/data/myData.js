@@ -3,6 +3,7 @@ export const navBarLink = [
       title: 'Home',
       
       name: '',
+      link:"/"
          
     },
   
