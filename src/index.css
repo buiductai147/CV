@@ -6,8 +6,15 @@ body{
     font-family: "Roboto";
     background-color:#272b23;
     color:#14fe17;
+    font-family: 'Monofonto';
 }
-body::after{
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }
+body::before{
     height:100%;
     width:100%;
     content:"";
@@ -16,7 +23,7 @@ body::after{
     left:0;
     background: repeating-linear-gradient( 0deg, rgba(0,0,0,.5) ,rgba(0,0,0,4) 1px, transparent 2px);
     opacity: 0.3;
-    z-index: 10000;
+    z-index: 100000;
     pointer-events: none;
 }
 @tailwind base;

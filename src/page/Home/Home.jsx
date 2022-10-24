@@ -1,28 +1,49 @@
 import React from 'react'
 
+import Ecommerce from '../../data/image/Ecommerce.png'
+import Dashboard from '../../data/image/dashboard.png'
+import "./Home.css"
+
+
 const Home = () => {
   return (
-    <div className=" border-[#14fe17] border-solid border-2 mx-4">
-      <p className=" inline-block">
-        Hi there! I'm Tran Minh Khang.<b/>
-        I love writing code, especially javascript, in the last 3 years, 
-        I've been practicing my skills in programming languages.
-         I'm currently applying for fontend developer position,
-          I love working with ReactJS library and using Tailwind CSS
-        12 tron bu
-        14 thoi
-        16 tam giac
-        14 ngu giac
-        token con nho 
-        9 zombies 
-        6 assassins
-        6 witch
-        23 wolf
-        16 tentacles
-        6 monster hand
-        22 monster
-        total: 144 token
+    <div className=" border-[#14fe17] border-solid border-2 mx-4 text-xl p-4 mt-5">
+      <p className=" inline">
+        <p className="leading-relaxed ">Hi there! I'm Tran Minh Khang.</p><br/>
+        I enjoy developing programming, specifically javascript, and I enjoy utilizing Tailwind CSS and the ReactJS library. I have been honing my programming language skills for the past three years. I now want to put everything I have learnt into practice and improve your business. I'm the one that can transport your thoughts into reality and advance them. I'm hoping to use that to submit a front-end developer application.
       </p>
+        <br />
+        <br />
+        <span>
+          Feel free to explore my website ❤
+        </span>
+        <div className="my-5" >
+          <p className=" uppercase text-center ">highlight project</p>
+        </div>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="border-[#14fe17] md:border-solid md:border-2 mx-4 ">
+            <a href="https://nxg-car-store.netlify.app/" >
+              <img src={Ecommerce} className="img h-52 m-auto mt-3 "/>
+              <p className="text-center hover:underline">Ecommerce store</p>
+            </a>
+            <p className="text-left pl-3 ">
+            Using the <b>React</b> library and <b>Material-Ui</b> to build a complete eCommerce website that can pay online through the Stripe payment gateway.
+            </p>
+          </div>
+
+          <div className="border-[#14fe17] md:border-solid md:border-2">
+            <a href="https://cv-dashboar.netlify.app/" >
+              <img src={Dashboard} className="img h-52  m-auto pb-8 mt-3"/>
+              <p className="text-center hover:underline">React dashboard</p>
+            </a>
+            <p className="text-left pl-3">
+              A beautiful React Dashboard, using Tailwind in combination with the Syncfusion library.
+            </p>
+          </div>
+          
+          
+        </div>
+        
     </div>
   )
 }

@@ -16,12 +16,13 @@ module.exports = {
           'main-bg': '#FAFBFB',
           'main-green-bg': '#14fe17',
           'main-dark-bg': '#272b23',
+          'transparent-bg': 'rgba( 16, 255, 0, 0.15)',
           'secondary-dark-bg': '#33373E',
           'light-gray': '#F7F7F7',
           'half-transparent': 'rgba(0, 0, 0, 0.5)',
         },
         colors: {          
-          'main': '#14fe17'
+          'main': '#14fe17',
         },
         borderWidth: {
           1: '1px',
